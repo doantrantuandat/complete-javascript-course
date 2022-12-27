@@ -29,5 +29,5 @@ const checkWinner = (avgDolhins, avgKoalas) => {
 
 const dolphins1 = [85, 54, 41];
 const koalas1 = [23, 34, 27];
-
-checkWinner(calcAverage(dolphins1), calcAverage(koalas1));
+dolphins1.indexOf;
+dolphins1.checkWinner(calcAverage(dolphins1), calcAverage(koalas1));
