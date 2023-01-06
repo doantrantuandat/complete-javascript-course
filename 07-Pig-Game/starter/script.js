@@ -35,6 +35,7 @@ btnRoll.addEventListener('click', function () {
         currentScore;
     } else {
       switchPlayer();
+      a = 21;
     }
   }
 });
