@@ -11,6 +11,7 @@ const restaurant = {
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
+  numGuest: 20,
 
   openingHours: {
     thu: {
@@ -27,3 +28,20 @@ const restaurant = {
     },
   },
 };
+
+//join 2 arrays
+
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log(menu);
+
+const rest2 = {
+  name: 'Classico Italiano',
+  location: 'Via Angelo Tavanti 23, Firenze, Italy',
+};
+
+rest2.numGuest = restaurant.numGuest;
+console.log(rest2);
+restaurant.numGuest = 2;
+
+console.log(restaurant);
+console.log(rest2);
